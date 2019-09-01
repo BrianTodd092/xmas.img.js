@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style>
+#a  { 
+      position: relative;
+      left: 50%;
+}
+</style>
+</head>
+<body>
+<img id="a" src="xmas_tree.png" alt="img1">
+
+
+<!-- script located html document, external script delay loading image.-->
+
+<script>
+var date = new Date();
+var greeting;
+
+document.getElementById('a').style.display = 'none';
+
+if (date.getMonth() === 11)  {
+
+greeting = document.getElementById('a').style.display = 'block';
+
+}
+
+
+else if (date.getMonth() === 0  && date.getDate() < 7) {
+
+greeting = document.getElementById('a').style.display = 'block'; 
+
+    
+}
+
+document.image(greeting);
+</script>
+
+
+</body>
+</html>
