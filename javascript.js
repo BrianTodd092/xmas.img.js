@@ -2,7 +2,7 @@ var date = new Date();
 var greeting;
 
 
-if (date.getMonth() === 11)  {
+if (date.getMonth() === 7)  {
 
 greeting = document.getElementById('a').style.display = 'block';
 
