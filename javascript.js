@@ -1,7 +1,6 @@
 var date = new Date();
 var greeting;
 
-document.getElementById('a').style.display = 'none';
 
 if (date.getMonth() === 11)  {
 
